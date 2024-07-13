@@ -1,0 +1,15 @@
+.goog-te-gadget-simple {
+    border: none;
+    background-color: transparent;
+}
+.goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed span {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+/* .VIpgJd-ZVi9od-xl07Ob-lTBxed span{
+    border: none;
+} */
+#google_translate_element a span:nth-child(3), #google_translate_element a span:nth-child(5){
+    display: none;
+}

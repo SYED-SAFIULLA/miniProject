@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/about.css">
+</head>
+<body>
+   
+    <header>
+        <nav class="hidden">
+            <div class="top">
+                <img src="../images/minilogo.png" alt="logo">
+            </div>
+            <a id="a2" href="contact.html">Contact us</a>
+            <a id="a3" href="landingpg.html">Home</a>
+        </nav>
+    </header>
+
+    <section class="hero hidden">
+        <div class="hero-content" style="background-color: rgba(12, 12, 12, 0.8);border-radius: 10px;">
+            <h1>About Us</h1>
+            <p>Learn more about our company, our team, and our values.</p>
+        </div>
+    </section>
+
+    <section class="about-section hidden">
+        <div class="container hidden">
+            <div class="about-content" style="background-color: rgba(12, 12, 12, 0.8);border-radius: 10px;">
+                <h2 style="color: white;">Our Story</h2>
+                <p style="color: white;">Welcome to TripMitra, crafted by four passionate 6th-semester Computer Science students of Malnad College of Engineering. We aim to make your journeys unforgettable with expert tips, destination insights, and personalized itineraries. Join us in exploring the world, one adventure at a time!</p>
+            </div>
+            <div class="about-image hidden">
+                <img src="images/our-story.jpg" alt="Our Story">
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <div class="container">
+            <div class="hidden" style="background-color: rgba(12, 12, 12, 0.8) ;border-radius: 10px;">
+            <h2 style="color: rgb(255, 255, 255)">Meet the Team</h2>
+            </div>
+            <div class="team-grid" >
+                <div class="team-member hidden">
+                    <img src="../images/profile/sinchana.jpg" alt="Team Member 1">
+                    <h3>Sinchana M C</h3>
+                    <p>Team Member</p>
+                </div>
+                <div class="team-member hidden">
+                    <img src="../images/profile/srinidhi.jpg" alt="Team Member 2">
+                    <h3>Srinidhi H K</h3>
+                    <p>Team Member</p>
+                </div>
+                <div class="team-member hidden">
+                    <img src="../images/profile/safi.jpg" alt="Team Member 3">
+                    <h3>Syed Safiulla</h3>
+                    <p>Team Member</p>
+                </div>
+                <div class="team-member hidden">
+                    <img src="../images/profile/yashaswini.jpg"  alt="Team Member 4">
+                    <h3>Yashaswini H S</h3>
+                    <p>Team Member</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="values-section">
+        <div class="container">
+            <h2 class="hidden" style="color: rgb(255, 255, 255)" >Our Values</h2>
+            <div class="values-grid">
+                <div class="value-item hidden" style="color: rgb(255, 255, 255);background-color: rgba(12, 12, 12, 0.8) ;border-radius: 10px;">
+                    <h3>Integrity</h3>
+                    <p>We uphold the highest standards of integrity in all of our actions.</p>
+                </div>
+                <div class="value-item hidden" style="color: rgb(255, 255, 255);background-color: rgba(12, 12, 12, 0.8) ;border-radius: 10px;">
+                    <h3>Quality</h3>
+                    <p>We provide outstanding products and unsurpassed service that deliver premium value to our customers.</p>
+                </div>
+                <div class="value-item hidden"style="color: rgb(255, 255, 255);background-color: rgba(12, 12, 12, 0.8) ;border-radius: 10px;">
+                    <h3>Innovation</h3>
+                    <p>We constantly strive to redefine the standard of excellence in everything we do.</p>
+                </div>
+                <div class="value-item hidden"style="color: rgb(255, 255, 255);background-color: rgba(12, 12, 12, 0.8) ;border-radius: 10px;">
+                    <h3>Teamwork</h3>
+                    <p>We work together, across boundaries, to meet the needs of our customers and to help the company win.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+            <a href="#"><img src="../images/insta.png" alt="instagram" height="30px"></a>
+            <a href="#"><img src="../images/gmail.png" alt="gmail" height="30px"></a>
+            <a href="#"><img src="../images/x.jpg" alt="x" height="30px"></a>
+    </footer>
+</body>
+</html>
+
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'en', 
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+  }, 'google_translate_element');
+  }
+  </script>        
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="../lang.js"></script>
+
+<style>
+  #google_translate_element {
+    display: none;
+  }
+</style>
+
+<!-- <script>
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            console.log(entry);
+            if(entry.isIntersecting) {
+                entry.target.classList.add('show');
+            } else {
+                entry.target.classList.remove('show');
+            }
+        });
+    });
+
+    const hiddenElements = document.querySelectorAll('.hidden');
+    hiddenElements.forEach((e1) => observer.observe(e1));
+</script> -->
